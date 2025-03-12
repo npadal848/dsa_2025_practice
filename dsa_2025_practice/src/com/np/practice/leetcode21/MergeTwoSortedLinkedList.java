@@ -2,6 +2,8 @@ package com.np.practice.leetcode21;
 
 import com.np.practice.ListNode;
 
+import static com.np.practice.ListNode.printNode;
+
 public class MergeTwoSortedLinkedList {
 
     public static void main(String[] args) {
@@ -15,14 +17,6 @@ public class MergeTwoSortedLinkedList {
 
         ListNode result = mergeTwoLists(list1, list2);
         printNode(result);
-    }
-
-    private static void printNode(ListNode result) {
-        ListNode temp = result;
-        while (temp != null){
-            System.out.print(temp.val+" ");
-            temp = temp.next;
-        }
     }
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {

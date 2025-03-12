@@ -7,4 +7,12 @@ public class ListNode {
       public ListNode() {}
       public ListNode(int val) { this.val = val; }
       public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+
+    public static void printNode(ListNode node) {
+        ListNode temp = node;
+        while (temp != null){
+            System.out.print(temp.val+" ");
+            temp = temp.next;
+        }
+    }
  }
