@@ -27,4 +27,4 @@ replay_pid*
 *.iml
 /out
 .DS_store
-
+.idea/
