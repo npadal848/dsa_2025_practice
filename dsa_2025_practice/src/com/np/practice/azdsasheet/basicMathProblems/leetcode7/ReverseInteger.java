@@ -1,4 +1,4 @@
-package com.np.practice.basicMathProblems.leetcode7;
+package com.np.practice.azdsasheet.basicMathProblems.leetcode7;
 
 public class ReverseInteger {
 

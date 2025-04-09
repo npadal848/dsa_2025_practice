@@ -1,4 +1,4 @@
-package com.np.practice.recursion;
+package com.np.practice.azdsasheet.basicMathProblems.recursion;
 
 import java.util.ArrayList;
 

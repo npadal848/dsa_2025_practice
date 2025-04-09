@@ -1,4 +1,4 @@
-package com.np.practice.basicMathProblems;
+package com.np.practice.azdsasheet.basicMathProblems;
 
 public class PrimNumber {
 
